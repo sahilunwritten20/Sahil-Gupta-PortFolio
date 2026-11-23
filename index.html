@@ -26,6 +26,10 @@ body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:70;op
 .in{max-width:1140px;margin:0 auto;padding:0 24px}
 .lab{display:inline-flex;align-items:center;gap:10px;font-size:.78rem;text-transform:uppercase;letter-spacing:.16em;color:var(--muted);margin-bottom:18px}
 .lab::before{content:"";width:28px;height:1.5px;background:var(--ac)}
+b[data-n]::after {
+  content: "+";
+}
+
 #bar{position:fixed;top:0;left:0;height:3px;width:0;background:var(--ac);z-index:60}
 header{position:sticky;top:env(safe-area-inset-top,0px);z-index:40;background:color-mix(in srgb,var(--bg) 80%,transparent);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
 header .in{display:flex;align-items:center;justify-content:space-between;height:68px;gap:16px}
@@ -245,7 +249,7 @@ section+section::before{content:"";display:block;height:1px;max-width:1092px;mar
 <section class="alt" id="skills"><div class="in">
  <div class="rv"><span class="lab">Skills</span><h2>What I build <em>with.</em></h2></div>
  <div class="sk rv">
-  <div><h3><small>01</small>Languages</h3><div class="chips"><span>C / C++</span><span>Java</span><span>Python</span><span>JavaScript</span><span>SQL</span><span>HTML &amp; CSS</span></div></div>
+  <div><h3><small>01</small>Languages</h3><div class="chips"><span>C / C++</span><span>Java</span><span>Python</span><span>TypeScript</span><span>JavaScript</span><span>SQL</span><span>HTML &amp; CSS</span></div></div>
   <div><h3><small>02</small>Frontend</h3><div class="chips"><span>React</span><span>JavaScript</span><span>HTML</span><span>CSS</span></div></div>
   <div><h3><small>03</small>Backend &amp; APIs</h3><div class="chips"><span>Node.js</span><span>Express</span><span>FastAPI</span><span>REST</span></div></div>
   <div><h3><small>04</small>Databases</h3><div class="chips"><span>MongoDB</span><span>SQLite</span><span>SQL</span><span>PostgreSQL</span></div></div>
@@ -280,13 +284,13 @@ section+section::before{content:"";display:block;height:1px;max-width:1092px;mar
 <section class="ct" id="contact"><div class="in">
  <span class="lab">Contact</span>
  <h2 class="rv">Have a project <em>in mind?</em></h2>
- <p>Internships, jobs, freelance builds or a wild idea. I reply fast.</p>
+ <p>Internships, jobs, freelance builds or a wild idea.</p>
  <div class="links"><a 
   class="btn" 
   id="mail" 
   href="mailto:sahilguptaengineer20@gmail.com?subject=Portfolio%20Inquiry">
   Email me
-</a><a class="btn o" href="https://github.com/sahilunwritten20" target="_blank" rel="noopener noreferrer">GitHub</a><a class="btn o" href="https://www.linkedin.com/in/YOUR-LINKEDIN" target="_blank" rel="noopener noreferrer">LinkedIn</a><a class="btn o" href="https://www.instagram.com/labyrinthine.psyche/" target="_blank" rel="noopener noreferrer">Instagram</a></div>
+</a><a class="btn o" href="https://github.com/sahilunwritten20" target="_blank" rel="noopener noreferrer">GitHub</a><a class="btn o" href="https://www.linkedin.com/in/sahil-dinesh-gupta-85728a451" target="_blank" rel="noopener noreferrer">LinkedIn</a><a class="btn o" href="https://www.instagram.com/labyrinthine.psyche/" target="_blank" rel="noopener noreferrer">Instagram</a></div>
 </div></section>
 </main>
 
